@@ -1,0 +1,126 @@
+.row .taskList{
+
+}
+.head-select{
+    margin-bottom: 5px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+}
+.div-checkbox{
+    position: absolute;
+    left: -5px;
+    top: 12px;
+}
+.div-flag{
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.line-font{
+    color:#ddd!important;
+    text-decoration: line-through;
+}
+.right-border{
+    border-right: 1px solid #eee;
+}
+.row .taskList .taskList_ul>li{
+    line-height: 14px;
+    border-bottom: 1px solid #e4e4e4;
+    position: relative;
+    padding: 10px 10px 10px 75px;
+}
+.taskList .taskList_ul li:hover{
+    cursor:pointer;
+    background-color: #f5f5f5 !important;
+}
+.row .taskList .taskList_ul>li p{
+    margin:0px;
+    line-height: 22px;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size:12px;
+    color:#AEAEAE;
+}
+.row .taskList .taskList_ul{
+    /*margin-top: 10px;*/
+    position: relative;
+    padding-left: 0px;
+}
+.taskList_ul li{font-family:  "Microsoft Yahei","Helvetica Neue", "Segoe UI", Tahoma, Arial, "Hiragino Sans GB", STHeiti, "WenQuanYi Micro Hei", sans-serif;}
+.taskList_ul li *{font-family:inherit!important;}
+
+.taskList .taskTime{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+.taskStatus{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 14px;
+}
+.taskTitle{
+    position: absolute;
+    left: 45px;
+    top: 10px;
+    /*display:block;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;*/
+    font-size: 16px;
+    width: 75%;
+    height: 60px;
+}
+.divTitle{
+   height: 70px;
+}
+.executeBtn{
+    position: absolute;
+    right: 25px;
+    margin-top: 5px;
+}
+.editdelBtn{
+    position: absolute;
+    right: 85px;
+    margin-top: 5px;
+}
+.stage-task{
+    padding-left: 5px;
+}
+.stage-task li{
+    position: relative;
+    padding: 10px 10px 5px 10px;
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+    height: 100%;
+}
+.stage-task li:hover{
+    cursor:pointer;
+    background-color: #f5f5f5 !important;
+}
+.stage-task li .field{
+    font-size: 14px;
+    width:25%;
+    float: left;
+}
+.addBtn {
+    position: absolute;
+    right: 145px;
+    margin-top: 5px;
+}
+.orderBtn{
+    position: absolute;
+    right: 25px;
+    margin-top: 5px;
+}
+.delBtn{
+    position: absolute;
+    right: 85px;
+    margin-top: 5px;
+}
+
+.taskList_ul h5{margin:10px 10px 3px 0px!important; color:#333;font-family:  "Microsoft Yahei","Helvetica Neue", "Segoe UI", Tahoma, Arial, "Hiragino Sans GB", STHeiti, "WenQuanYi Micro Hei", sans-serif;}

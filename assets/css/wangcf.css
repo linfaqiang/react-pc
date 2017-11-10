@@ -1,0 +1,531 @@
+.row .workList{
+    background-color: #fff;
+}
+.row .workList .workList_ul>li{
+    line-height: 14px;
+    border-bottom: 1px solid #e4e4e4;
+    position: relative;
+    padding: 10px;
+    min-height: 60px;
+}
+.row .workList .workList_ul>li p{
+    margin:0;
+    line-height: 22px;
+    /*word-wrap: break-word;
+    word-break: break-all;*/
+    max-height: 44px;
+    overflow: hidden;
+    max-width: 85%;
+}
+.row .workList .workList_ul{
+    margin-top: 10px;
+    position: relative;
+    padding-left: 0;
+}
+.workList .titleWork{
+    font-size: 16px;
+}
+.workList .workTime{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+.workList .workStatus{
+    position: absolute;
+    right: 20px;
+    top: 37px;
+}
+.workRight{
+    position: relative;
+    background-color: #fff;
+}
+.workRightOne{
+    position: relative;
+    padding: 10px;
+    /*height: 70px;*/
+    border-bottom: 1px solid #e4e4e4;
+}
+.workRightOne .workRightOne_a{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    color: #444;
+    font-size: 16px;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+}
+.workRightOne a:hover{
+    cursor: pointer;
+}
+.workRightTwo,.workRightThree,.workRightFour{
+    padding: 10px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.workRightTwo .workRightTitle{
+    border-left: 3px solid #d61518;
+    padding-left: 5px;
+    font-size: 15px;
+}
+.workRightTwo p{
+    line-height: 16px;
+    margin-top: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.workRightThree .workRightTitle{
+    border-left: 2px solid #d61518;
+    padding-left: 5px;
+}
+.workRightThree p{
+    line-height: 16px;
+    margin-top: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.workRightFour .workRightTitle{
+    border-left: 3px solid #d61518;
+    padding-left: 5px;
+    font-size: 15px;
+}
+.workRightFour .workLeaderImg{
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    display: block;
+}
+.workRightFour ul{
+    padding:0;
+}
+.workRightFour ul>li{
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+.workRightFour .saveTime{
+    color: #999;
+}
+.sayLi a:hover{
+    background-color: #d61518 !important;
+    color: #fff !important;
+    cursor:pointer !important;
+    text-decoration: none !important;
+}
+.workRight .sayLi{
+    float: right;
+}
+.workScreening .workTimeLabel{
+    display: block;
+    margin-top: 10px;
+}
+.conmmentDiv{
+    position: relative;
+    top: 12px;
+}
+.conmmentDiv .saySomething{
+    background-color: #d61518;
+    color: #fff;
+    padding: 10px 20px;
+}
+#workAddComment{
+    width: 100% !important;
+}
+.workRightCommentImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    float: left;
+}
+.workRightCommentUl{
+    padding:0;
+}
+.workRightCommentUl>li{
+    padding: 5px;
+    border-bottom: 1px solid #e4e4e4;
+    margin-top: 10px;
+}
+.workRightCommentDiv{
+    padding-left: 50px;
+}
+.workRightCommentName{
+    display: inline;
+}
+.workRightCommentShow{
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.workRightCommentTime{
+    float: right;
+}
+.workRow .btn-group{
+    display: inline-block !important;
+}
+.workAddRow{
+    padding: 0px 30px 30px 30px;
+}
+.addWorkType{
+    line-height: 30px;
+    width: 43%;
+    float: left;
+}
+.addWorkScreening{
+    line-height: 30px;
+    width: 43%;
+    display: inline-block;
+    margin-left: 40px;
+}
+.addWorkSummary{
+    margin-top:22px;
+}
+#workAddSummary{
+    min-height: 150px;
+    resize: none;
+}
+.addWorkSummary .SummaryInput{
+    width:90%;
+}
+#Submit-btn{
+    color: #fff;
+    background-color: #3576be;
+}
+.workAddRow .select2-container{
+    width: 40%;
+    display: table !important;
+}
+.workAddRow .reportLable{
+    display: block;
+    margin-top: 15px;
+}
+.workRightOne .workEdit-menu{
+    position: absolute;
+    left: 50%;
+    top: 30px;
+}
+.activityDropdownbuttons{
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.workList .workList_ul li:first-child{
+    background-color: #f5f5f5;
+}
+.workList .workList_ul li:hover{
+    cursor:pointer;
+    background-color: #f5f5f5 !important;
+}
+.activity_list>ul .workListBackground:hover{
+    cursor:pointer;
+    background-color: #f5f5f5 !important;
+}
+/*右边tab备注及附件上传*/
+.ativityRight .padding-left-20{
+    color: #333;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.ativityRight .top-btn{
+    float: right;
+    margin-top: -36px;
+}
+.ativityRight .beizhu{
+    margin: 0;
+    padding-left: 20px;
+}
+.activityTabTwo .beizhu li{
+    position: relative;
+    margin-bottom: 10px;
+    height: 70px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.activityTabTwo .beizhu li .tx-img{
+    height: 55px;
+    overflow: hidden;
+    width: 55px;
+    /*-webkit-border-radius: 55px;*/
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+.activityTabTwo .beizhu li h5{
+    position: relative;
+    top: 8px;
+    left: 65px;
+    overflow: hidden;
+    width: 30%;
+    word-wrap: break-word;
+    word-break: break-all;
+    height: 35px;
+}
+.activityTabTwo .beizhu li .time{
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    font-size: 14px;
+}
+.activityTabTwo .detail-bottom-pp{
+    padding-left: 20px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    line-height: 35px;
+}
+.activityTabTwo .beizhu li>p{
+    margin-left: 65px;
+    overflow: hidden;
+}
+.activityListHd ul:first-child li:nth-child(2){
+    background-color: #f5f5f5;
+}
+.ativityRight .form-control{
+    width: 100%;
+}
+.activityAdd .addActivityFile{
+    margin-left: 15px;
+}
+.activityAdd .form-group .ant-calendar-picker{
+    width:100% !important;
+}
+.workingLeftAll{
+
+}
+.workLeftContent,.workRightContent{
+    padding: 3px;
+}
+.workingRightAll{
+    width: 37.66666667%;
+    float: left;
+}
+.workingRightAll .activityRightBody{
+    background-color: #fff;
+}
+.workingRightAll .workingRightBody{
+    background-color: #fff;
+}
+.workingLeftAll .widget-body{
+    padding-top: 0px;
+}
+.workRight .detailOther-h3{
+    font-size:16px;
+}
+.activityAdd .activityAddress{
+    display: inline-block;
+    width: 49%;
+}
+.activityAdd .activityDetailAddress{
+    width: 48%;
+    display: inline-block;
+    left: 25px;
+}
+#addWorkForm .inputWeekDay{
+    width: 100%;
+}
+#addWorkForm .inputWeekDaySelect{
+    width: 100%;
+    height: 34px;
+}
+#addWorkForm .ant-calendar-picker{
+    margin-bottom:2px !important;
+}
+.ativityRight .detailOther-h3{
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+}
+.workRightContent p{
+    margin-bottom: 10px !important;
+}
+.activityAdd .activityDetailAddress .help-block{
+    position: absolute;
+}
+.messegeListAll .noReadNum{
+    min-width: 29px;
+    min-height: 29px;
+    max-height: 35px;
+    max-width: 29px;
+    display: inline-block;
+    padding: 2px 4px;
+    margin-top: 7px;
+    margin-left: 10px;
+    background-color: #d61518;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+}
+.messegeListAll .messegeBack{
+    padding: 5px 10px;
+    font-size: 18px;
+    color: #d61518;
+    line-height:28px;
+}
+.messegeListAll .messegeTotalSize{
+    padding-left: 15px;
+    font-size: 14px;
+}
+.messegeListAll .messegeTotalSize>span{
+    color: #d61518;
+    padding: 0px 5px;
+}
+.messegeListAll .messegeLists{
+    margin: 0;
+    padding-left: 20px;
+}
+.messegeListAll .messegeListLi{
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    padding-left: 70px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+    min-height:67px !important;
+}
+.messegeListAll .messegeListLi .tx-img{
+    position: absolute;
+    left: 0;
+}
+.messegeListAll .isReadP{
+    color: #999;
+}
+.messegeListAll .noReadP:before{
+    content: '.';
+    font-size: 55px;
+    color: #cb0101;
+    position: absolute;
+    left: 55px;
+    top: -28px;
+}
+.messegeDetailAll .messegeBack{
+    padding: 5px 10px;
+    font-size: 18px;
+    color: #d61518;
+    line-height:28px;
+}
+.messegeLists .messegeListLi>h5{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+.messegeLists .messegeListLi>p{
+    line-height: 22px !important;
+}
+.messegeDetailAll .messegeDetail{
+    text-align: center;
+    padding:10px;
+    /*min-height:580px;*/
+}
+.messegeDetailAll .messegeDetail .messegeContent{
+     text-align: left;
+ }
+.messegeDetailAll .messegeContent>p{
+    font-size: 14px;
+    text-indent: 2em;
+    line-height: 24px;
+}
+.messegeDetailAll .messegeDetail>p{
+    color: #999;
+}
+.workScreening .input-group{
+    width:100%;
+}
+.ativityRight .tab-content{
+    border:none !important;
+}
+.workingRightBody .tab-content{
+    border:none !important;
+}
+.workingLeftAll .workScrerningDiv{
+    padding: 10px;
+    border-bottom: 2px solid #d61518;
+}
+.workingLeftAll .workScrerningName{
+    color: #d61518;
+    text-decoration: none;
+    font-size: 13px;
+}
+.workingLeftAll .workMore{
+    color: #d61518;
+    margin-left: 5px;
+}
+.workingLeftAll .DTTT_button_collection{
+    height: 31px;
+}
+#workAddSummaryNext{
+    min-height: 150px;
+    resize: none;
+    padding: 5px 9px;
+}
+.workingLeftAll .workLeftContent .DTTTFooter{
+    padding: 5px 5px 2px 8px;
+}
+.workAddRow .addWorkRed{
+    color: #ff0000;
+}
+.workAddRow .erroText{
+    color: #ff0000;
+}
+.workingLeftAll .col-work-left{
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+.workingLeftAll .col-work-right{
+    padding-right: 0!important;
+}
+.workRightContent>div{
+    margin-top: 10px;
+}
+.workLeftContent .activity_list{
+    margin-top: 10px;
+}
+.activityAdd .select2-selection--single{
+    width:100%!important;
+}
+.infoDetail>h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.infoDetail>p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.infoDetail .infoContent img{
+    display: block;
+    margin: 0 auto;
+}
+.infoDetail .infoContent p{
+    font-size: 14px;
+    text-indent: 2em;
+}
+.infoContent .messegeBack{
+    padding: 5px 10px;
+    font-size: 18px;
+    color: #d61518;
+    line-height:28px;
+}
+/*隐藏活动添加备注*/
+.ativityRight .tab-pane .ppLi:first-child{
+    display: none;
+}
+/*通知头像改成图标*/
+.messegeListAll .message-img{
+    position: absolute;
+    left: 0;
+    top: 11px;
+    font-size: 42px !important;
+}
+.messegeListAll .message-img:before{font-family: Muiicons}
+/*活动更改*/
+.activityContentAll .activity_list{
+    max-height:100% !important;
+}
+.activityContentAll .activity_list>ul>li:last-child .line_left{
+    display: none;
+}
+/*新建必填项星号为红色 添加此class*/
+.mustRed{
+    color: #d61518;
+}
+#audioPlay{
+    width:40px;
+}
+/*不规则表格(首列td跨行时解决第二列td不居左问题)*/
+#irregular .textLeft{
+    text-align: left !important;
+}

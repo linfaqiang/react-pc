@@ -1,0 +1,21 @@
+.PicCarousel ul { list-style: none; }
+.PicCarousel {margin: 20px auto; width:600px;}
+.poster-main {
+  width: 1000px;
+  height: 500px;
+  position: relative;
+  margin: 0 auto;
+}
+.poster-main a, .poster-main img { display: block; }
+.poster-main .poster-list {
+  width: 1000px;
+  height: 500px;
+}
+.poster-main .poster-list .poster-item {
+  width: 200px;
+  height: 500px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.poster-main .poster-list .poster-item img{width:inherit; height:inherit;}

@@ -1,0 +1,383 @@
+﻿.report-first{ padding-left:60px; height: 60px; }
+.report-first h1{font-size: 15px; line-height: 50px;}
+.report-first .report-img{position: absolute; left: 5px; width: 45px; height: 45px; top:4px; }
+
+.report-first-r{position: absolute; top: 10px; right: 0px;}
+
+.customerAnalysis-table {
+    position: relative;
+    margin-top: 10px;
+    background: #fff;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    padding-left: 15px;
+}
+.customerAnalysis-table table {
+    width: 100%;
+    font-size: 14px;
+}
+.customerAnalysis-table table tr {
+    border-bottom: 1px solid #d9d9d9;
+}
+.customerAnalysis-table table tr:last-of-type {
+    border-bottom: 0;
+}
+.customerAnalysis-table table th {
+    text-align: left;
+    color: #999;
+    font-weight: normal;
+    height: 50px;
+    line-height: 50px;
+}
+.customerAnalysis-table table td {
+    color: #333;
+    height: 40px;
+    line-height: 40px;
+}
+.customerAnalysis-table table td.color_red {
+    color: #d61518;
+}
+.customerAnalysis-table table .customerShortname {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    width: 150px;
+}
+.customerAnalysis-table .line-top {
+    position: absolute;
+    top: 50px;
+    border-bottom: 1px solid #CBCBCB;
+    height: 1px;
+    width: 100%;
+    left: 0;
+}
+.danwei{height: 15px;line-height: 15px;padding-top: 20px;padding-left: 15px; color: #666;}
+
+/*业绩排行榜*/
+.performance {
+    background: #fff;
+}
+
+.performance> .head {
+    height: 76px;
+}
+
+.performance> .head> div {
+    height: 100%;
+    padding: 10px 0 15px 0;
+}
+
+.performance> .head> div:nth-child(1) {
+    float: left;
+    width: 84px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.performance> .head> div:nth-child(1)> span {
+    background: #ddd;
+    height: 52px;
+    width: 1px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+
+.performance> .head> div:nth-child(2) {
+    padding-left: 117px;
+}
+
+.performance> .head> div> p:nth-child(1) {
+    font-size: 14px;
+    color: #999;
+    line-height: 16px;
+    height: 16px;
+}
+
+.performance> .head> div> p:nth-child(1)> span {
+    font-size: 14px;
+    padding-right: 7px;
+    color: #eb8d00;
+    width: 22px;
+}
+
+.performance> .head> div> p:nth-child(2) {
+    color: #d61518;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.performance> .head> div> .p-l-15{padding-left: 15px;}
+
+.performance> .rank {
+    height: 55px;
+    position: relative;
+    border-top:1px solid #eee;
+}
+
+.performance> .rank> span {
+    position: absolute;
+    font-size: 20px;
+    color: #999;
+    line-height: 66px;
+    left: 32px;
+}
+
+.performance> .rank> span.default {
+    width: 4px;
+    height: 100%;
+    background: #d61518;
+    left: 0;
+}
+
+.performance> .rank> img {
+    width: 38px !important;
+    height: 38px;
+    position: absolute;
+    left: 65px;
+    top: 9px;
+}
+
+.performance> .rank> div {
+    height: 100%;
+    padding: 6px 15px 0px 120px;
+}
+
+.performance> .rank> div> p{margin: 0;}
+
+.performance> .rank> div> p:nth-child(1) {
+    font-size: 14px;
+    color: #333;
+}
+
+.performance> .rank> span.list-ranking{height: 100%; line-height: 55px}
+
+.performance> .rank> div> p:nth-child(2) {
+    font-size: 13px;
+    color: #999;
+}
+
+.position-relative .right-drop{ position: absolute; right: 5px; top: 7px; }
+.right-drop .btn{ border: 0 !important; background: none !important; padding-right: 2px;}
+.right-drop .dropdown-menu>li>a:hover{background: #d61518; color: #fff;}
+
+.right-top-btn{width:100px;
+    display: inline-block; }
+.ant-input{border-radius: 0 !important;}
+
+/* wangX */
+.chartLoading{display: none; position: absolute; width: 100%; text-align: center; font-size: 18px; color: #ccc; top: 45%;}
+.timeBar{display:inline-block;width: 100%; height: 24px; overflow: hidden; text-align: center;}
+.toggleTime{display:inline-block;height: 100%;}
+.toggleTime li{display: block; color: #d61518; cursor: pointer; background-color: #fff; height: 24px; line-height: 22px; padding: 0px 20px; border: solid 1px #dedede; border-left-width: 0px;  width:auto; float: left;}
+.toggleTime li.active{background: rgba(191, 191, 191, 0.3);;}
+.toggleTime li:first-child{ border-left-width: 1px;}
+.nameList{width: 80%; height: auto; margin: 0px auto; text-align: center; overflow: hidden; word-break: break-all; white-space: pre-wrap; color:#999;}
+.selStaff{width: 100%; height: 55px; padding-left: 65px; border-top:solid 1px #dedede; position: relative;}
+.selStaff div:nth-child(1){width: 65px; height: 100%; position: absolute;left: 0px; text-align: center;}
+.selStaff div:nth-child(1):after{display:block; content: ' '; position: absolute; top:5px; bottom: 5px; right: 0px; width:1px; background-color: #dedede;}
+.selStaff div:nth-child(2){width: 100%; padding-left: 15px;}
+.selStaff p{color: #999; font-size:12px; height: 100%; padding-top: 4px;}
+.performance> .rank> span.list-ranking { display: block; width: 65px; height: 100%; line-height: 55px; left: 0px; text-align: center;}
+span.list-ranking.active:before{display: block; content: '\2022'; color: #d61518; position: absolute; height: 35px; line-height: 35px; left: 8px; top: 50%; font-size: 35px; margin-top: -18px;}
+/* wangX */
+
+/*销售漏斗\商机阶段持续时间表 css hj*/
+.funnel {
+    padding: 0 26px;
+}
+
+.funnel> div.funnel_statistics {
+    padding: 32px 0 22px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.funnel> div.funnel_statistics> p {
+    font-size: 14px;
+    color: #777;
+    padding-left: 10px;
+    line-height: 24px;
+    position: relative;
+}
+
+.funnel> div.funnel_statistics> p.name {
+    color: #333;
+}
+
+.funnel> div.funnel_statistics> p> span {
+
+}
+
+.funnel> div.funnel_statistics> p> span.amount {
+    position: absolute;
+    left: 118px;
+}
+
+.funnel> div.funnel_statistics> p.val> span.amount {
+    color: #d92527;
+}
+
+.funnel> div.funnel_charts {
+
+}
+
+.funnel> div.funnel_charts> p {
+    padding: 20px 0 20px 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #414141;
+    position: relative;
+}
+
+.funnel> div.funnel_charts> p> span {
+    display: block;
+    width: 2px;
+    height: 12px;
+    background: #d61518;
+    position: absolute;
+    left: 0;
+    top: 24px;
+}
+
+.funnel> div.funnel_charts {
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.funnel> div.funnel_charts> div.chart_s {
+    height: 240px;
+    width: 420px;
+    margin-left: 36px;
+}
+
+.funnel> div.funnel_charts> div.chart_pie {
+    height: 240px;
+    width: 320px;
+}
+
+.funnel> div.funnel_charts> div.background {
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    background: #fff;
+    top: 50%;
+    margin-top: -44px;
+    border-radius: 44px;
+    left: 116px;
+    opacity: 0.5;
+}
+
+.funnel> div.funnel_charts> div.right_show {
+    position: absolute;
+    top: 90px;
+    left: 360px;
+}
+
+.funnel> div.funnel_charts> div.right_show> div {
+    float: left;
+    margin-left: 50px;
+}
+
+.funnel> div.funnel_charts> div.right_show> div:first-child {
+    margin-left: 0;
+}
+
+.funnel> div.funnel_charts> div.right_show> div> p {
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.funnel> div.funnel_charts> div.right_show> div> p> span.point {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.funnel> div.funnel_charts> div.right_show> div> p> span.stageName {
+    padding: 0 38px 0 12px;
+    display: inline-block;
+    width: 110px;
+}
+
+.funnel> div.funnel_charts> div.right_show> div> p> span.amount {
+    color: #d61518;
+}
+
+.funnel> div.funnel_table {
+    padding-bottom: 20px;
+}
+
+.funnel> div.funnel_table> table {
+    table-layout: fixed;
+}
+
+.funnel> div.funnel_table> table td {
+    background: #fff;
+    font-size: 14px;
+    cursor: auto;
+}
+
+.funnel> div.funnel_table> table td.nameTd {
+    text-align: left !important;
+    color: #5daec1;
+    cursor: pointer;
+}
+
+.funnel> div.funnel_table> table td.stageTd {
+    font-size: 14px;
+}
+
+.funnel> div.funnel_table> table td.stageTd> span {
+    color: #d61518;
+}
+
+.funnel> div.funnel_table> table td.amount {
+    color: #d61518;
+}
+
+.funnel> div.funnel_table> table td.subtotalTd {
+    text-align: left !important;
+    font-size: 18px;
+}
+
+.funnel> div.funnel_table> table td.subtotalTd> span {
+    color: #d61518;
+    padding-left: 20px;
+}
+
+.funnel> div.funnel_table> div.next_btn {
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.funnel> div.funnel_table> div.next_btn> a {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* 筛选 选中 */
+.radio_in {
+    height: 40px;
+    line-height: 40px;
+}
+
+.radio_in> input {
+    position: relative;
+    opacity: 1;
+    left: 0;
+    margin: 0;
+    height: 13px;
+    width: inherit;
+}
+
+.radio_in> span {
+    padding: 0 50px 0 10px;
+}
+/*销售漏斗\商机阶段持续时间表 css end hj*/
